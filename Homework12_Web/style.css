@@ -1,0 +1,96 @@
+.navbar-brand{
+	background-color: #40e0d0;
+	margin-left:60px;
+	font-size: 25px;
+
+}
+
+
+
+.navbar{
+	background-color:#fff;
+	margin-bottom: 50px;
+}
+
+.home_lattitude{
+	color:#fff;
+}
+
+.title_text{
+	color:#40e0d0;
+}
+
+.pic_in_text_main {
+	height: 30%;
+	width: 30%;
+	float: left;
+	margin-top: 50px;
+}
+
+.pic_in_text_vis_page,
+.comp_pic{
+	height: 100%;
+	width: 100%;
+	
+	margin-top: 50px;
+}
+
+h4 {
+ 	font-size: 20px;
+  	line-height: 150%;
+}
+
+.comp_pic{
+	margin-top: -10px;
+}
+
+.comp_title{
+	text-align: center;
+	color:#40e0d0;
+
+}
+
+
+.col-md-4{
+	margin-left: 40px;
+}
+
+.vis_pic{
+	height: 45%;
+	width: 45%;
+}
+
+
+.panel {
+  margin-right: 160px;
+  margin-left: 160px;
+}
+
+.table {
+	
+  	table-layout:fixed;
+}
+
+
+
+
+@media (max-width: 970px){
+	.navbar-right {
+		display: none;
+	}
+	.small_nav {
+		display: inline;
+		margin-left: 200px;
+		margin-right: 200px;
+		margin-top: -150px;
+	}
+
+
+}
+
+@media (min-width: 970px){
+	.small_nav {
+		display: none;
+	}
+
+}
